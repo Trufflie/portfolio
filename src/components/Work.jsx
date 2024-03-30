@@ -1,6 +1,7 @@
 import React from 'react'
 import Keeper from '../assets/projects/keeper.png'
 import Checklist from '../assets/projects/checklist.png'
+import QRCode from '../assets/projects/qr-code.png'
 
 
 
@@ -42,6 +43,22 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a rel="noopener"   href='https://github.com/Trufflie/checklist' >
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${QRCode})`}} className='shadow-lg shadow-[040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text 2xl font-bold text-white tracking-wider'>
+                            QR Code Generator Application
+
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a rel="noopener"  href='https://trufflie.github.io/qr-code/' >
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a rel="noopener"  href='https://github.com/Trufflie/qr-code' >
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
