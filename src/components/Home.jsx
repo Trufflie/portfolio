@@ -2,6 +2,7 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { FaFileDownload } from "react-icons/fa";
+import Resume from "../assets/Resume/Chris-Faherty.pdf";
 const Home = () => {
 	return (
 		<div
@@ -20,18 +21,19 @@ const Home = () => {
 					responsive full-stack web applications.
 				</p>
 				<div className="flex flex-row">
-				<Link
-						to="work"
-						smooth={true}
-						duration={500}
+					<a
+						className=" pr-2 text-gray-300"
+						href={Resume}
+						download="Chris-Faherty.pdf"
 					>
 						<button className="text-white group border-2 px-6 py-3 flex items-center hover:bg-purple-600 hover:border-purple-600">
 							Download Resume
-							<span >
+							<span>
 								<FaFileDownload className="ml-3 " />
 							</span>
 						</button>
-					</Link>
+					</a>
+
 					<Link
 						to="work"
 						smooth={true}
@@ -44,7 +46,6 @@ const Home = () => {
 							</span>
 						</button>
 					</Link>
-
 				</div>
 			</div>
 		</div>
