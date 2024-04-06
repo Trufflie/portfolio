@@ -4,7 +4,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import Resume from "../assets/Resume/Chris-Faherty-Resume.pdf";
+import Resume from "../assets/Resume/Chris-Faherty.pdf";
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const handleClick = () => setNav(!nav);
